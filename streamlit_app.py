@@ -6,7 +6,7 @@ import pandas as pd
 # -------------------------
 # CONFIG
 # -------------------------
-st.set_page_config(page_title="Sistema de Votação", layout="centered")
+st.set_page_config(page_title="Eleições do Clube Futebol os Sanjoanenses 2026", layout="centered")
 
 # CORES
 st.markdown("""
@@ -28,7 +28,7 @@ col1, col2 = st.columns([1,3])
 with col1:
     st.image("logo.png", width=80)
 with col2:
-    st.markdown("<h1>Sistema de Votação</h1>", unsafe_allow_html=True)
+    st.markdown("<h1>Eleições do Clube Futebol os Sanjoanenses 2026</h1>", unsafe_allow_html=True)
 
 # -------------------------
 # BASE DE DADOS
